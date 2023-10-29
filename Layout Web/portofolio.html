@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portofolio</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            display: flex;
+            align-items: center;
+        }
+
+        th, td{
+            border-style: none;
+        }
+
+        nav {
+			background-color: #333;
+			color: #fff;
+			padding: 10px;
+			text-align:justify;
+		}
+
+
+        nav ul {
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+            text-align: right;
+        }
+
+        nav ul li a {
+            color:#fff;
+            text-decoration: none;
+            padding: 1rem;
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        section {
+            margin-top: 4rem;
+            padding-top: 4rem;
+            border-top: 1px solid rgb(31, 29, 29);
+        }
+
+        section h2 {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            
+        }
+
+        .project {
+            margin-bottom: 2rem;
+        }
+
+        .project img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 1rem;
+        }
+
+        .project h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .project p {
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+
+        form label {
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        form input,
+        form textarea {
+            display: block;
+            width: 100%;
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        form button {
+            background-color: #333;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .fadiyah {
+            width: 50px;
+            height: 50px;
+            margin-right: 1rem;
+        }
+
+        .name {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="fadiyah.jpg" alt="fadiyah" class="fadiyah">
+        <h1 class="name">My Portofolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Interesting">Interesting</a></li>
+                <li><a href="#Experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>HI! Saya adalah Fadiyah Desi Asmawati, saya biasa dipanggil dengan Desi. Saya Mahasiswa aktif semester 3 di Politeknik Harapan Bersama Tegal.</p>
+            <p>Birth Date : 29 Desember 2004</p>
+            <p><Address>Lebaksiu, Kab.Tegal</Address></p>
+            <br>
+        </section>
+        <table style="width: 100%;">
+            <table>
+                <tr>
+                  <th style="width: 20%;">Pendidikan</th>
+                  <th style="width: 50%;">Work Sample</th>
+                  <th style="width: 30%;"> Motivasi</th>
+                </tr>
+                <tr>
+                    <td>SMA Negeri 1 Balapulang</td>
+                    <td></td>
+                    <td>Menjadi orang baik tidaklah merugikan</td>
+                  </tr>
+                  <tr>
+                    <td>SMP Negeri 1 Lebaksiu</td>
+                  </tr>
+              </table>
+        <section id="Interesting">
+            <h2>Interesting</h2>
+            <ul>
+                <li>Data Analyst</li>
+                <li>Web Design</li>
+                <li>Web Development</li>
+                <li>User Experience Design</li>
+            </ul>
+        </section>
+
+        <section id="Experience">
+            <h2>Experience</h2>
+            <div class="">
+                <h3>WORKSHOP</h3>
+                <ul>
+                    <li>Tegal to Turkey (2022)</li>
+                    <p>Berpartisipasi dalam kegiatan tersebut. Berbincang budaya,Tips dan Trik public speaking dimana narasumber tersebut berasal dari Turki dan juga diikuti oleh Mahasiswa/i Tegal dengan jumlah lebih dari 50 peserta</p>
+                    <p><a href="https://drive.google.com/file/d/1n50KYfJqN6zairwA6NlhXnjqL5Rn2bKT/view?usp=drivesdk">E-sertifikat</a></p>
+                    <li>Python Fundamental (2023)</li>
+                    <p>kegiatan tersebut diadakan oleh kampus Politeknik Harapan Bersama, saya memahami apa itu bahasa python,dan bagaimana kita menggunakannya. Kegiatan tersebut juga menambah relasi dimana kita bisa saling sharing.</p>
+                    <p><a href="https://drive.google.com/file/d/12-dryFvRRB4NvSJ_N-bYnA8EAqxWKnQY/view?usp=drivesdk">E-sertifikat</a></p>
+                </ul>
+            </div>
+            <br>
+            <div>
+                <h3>SEMINAR</h3>
+                <ul>
+                    <li>Seminar Nasional (2023)</li>
+                    <p>Rangkuman dari seminar infovest
+                        membahas pentingnya otomatisasi dalam penyampaian TI dan percepatan penyampaian aplikasi tradisional dan cloud-native. Ini menekankan penggunaan alat pengembang, Linux, dan berbagai jejak cloud atau perangkat keras. Dokumen tersebut juga menyoroti manfaat stabilitas di lingkungan cloud hybrid terbuka dan menyarankan penggunaan Linux untuk meningkatkan stabilitas di lingkungan operasi.
+                        <p>1. Pemeriksaan keamanan terintegrasi untuk mencegah dan mengidentifikasi kode berbahaya </p>
+                        <p>2. Alur kerja CI/CD yang berfokus pada keamanan untuk melindungi sistem build  </p>
+                        <p>3. Pemantauan keamanan berkelanjutan saat runtime dengan deteksi ancaman dengan ketelitian lebih tinggi </p>
+                        <p>4. Rantai Pasokan Perangkat Lunak Tepercaya melalui proses pembuatan kode, pembuatan, dan pemantauan</p>
+                        <p>5. Layanan cloud dengan pagar keamanan terintegrasi di setiap fase SDLC - Dukungan untuk hampir semua container image atau layanan cloud - Layanan yang dihosting dan dikelola untuk penyederhanaan onboarding ke cluster Red Hat OpenShift - Red Hat sebagai penyedia terkemuka solusi perangkat lunak sumber terbuka perusahaan - Pemenang penghargaan dukungan, pelatihan, dan layanan konsultasi untuk perusahaan Fortune 500
+                        Karir di bidang teknologi.</p>
+                        Di dalamnya terdapat tips, contoh profesi di industri teknologi seperti programmer, manajemen produk, desainer UI/UX, analis data, performance marketing, SQA, dan DevOps. Ini juga menyebutkan peran tertentu dalam tim teknik, seperti CTO, Chapter Lead BE, Chapter Lead FE, Chapter Lead Mobile, dan DevOps. Selain itu, disebutkan peran dalam tim produk, seperti CPO, Chapter Lead SQA, Chapter Lead UIUX, dan Strategic Product Manager.
+                        Redhat
+                        Red Hat, Inc. adalah perusahaan teknologi informasi yang terkenal karena fokusnya pada perangkat lunak sumber terbuka, khususnya distribusi Linux yang disebut Red Hat Enterprise Linux (RHEL). Mereka adalah salah satu pemimpin dalam pengembangan perangkat lunak open source dan memiliki sejarah panjang dalam industri IT. Red Hat terkenal dengan komitmen mereka pada keamanan, stabilitas, dan dukungan jangka panjang untuk produk-produknya, terutama RHEL, yang banyak digunakan dalam lingkungan bisnis. Perusahaan ini juga menawarkan berbagai produk dan layanan tambahan, termasuk solusi container seperti Red Hat OpenShift. Pada tahun 2019, Red Hat diakuisisi oleh IBM dalam akuisisi yang signifikan, menunjukkan pentingnya peran Red Hat dalam dunia IT dan infrastruktur komputasi. Selain itu, Red Hat berperan aktif dalam proyek open source, seperti proyek Fedora, yang mendukung komunitas pengembang open source. Dengan dedikasinya terhadap open source dan kontribusi besar terhadap proyek-proyek open source, Red Hat terus memainkan peran penting dalam evolusi dunia teknologi informasi.</p>
+                </ul>
+            </div>
+            <br>
+            <div class="">
+                <h3>LOMBA</h3>
+                <ul>
+                    <li>Program Kreatifitas Mahasiswa/PKM (2022)</li>
+                    <p>Berpartisipasi dalam PKM tersebut bersama Tim yaitu PKM-KC. dimana menghasilkan karsa cipta, banyak sekali pengalaman yang saya dapatkan, dimana saya benar-benar harus teliti,mengatur trik,dan juga belajar hal lainnya. PKM tersebut diselenggarakan oleh Kemendikbud dan diikuti oleh Mahasiswa/i seluruh Indonesia.</p>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send</button>
+                <p>/Kunjungi instagram Saya <a href="https://instagram.com/fdydsii?utm_source=qr&igshid=YzU1NGVlODEzOA==">@fdydsii</a></p>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
